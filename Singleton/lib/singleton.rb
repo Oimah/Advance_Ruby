@@ -1,14 +1,17 @@
 animal = gets.chomp
+
   def animal.speak
-  upcase
-  puts "The #{self.upcase} says miaow"
+    upcase
+    puts "The #{self.upcase} says miaow"
   end
 
 mammal = gets.chomp
 class << mammal
+
   def speak_2
-  puts "The #{self.upcase} says WOOF!"
+    puts "The #{self.upcase} says WOOF!"
   end
+
 end
 
 animal.speak #=> The CAT says miaow
